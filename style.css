@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana;
+    margin: 0;
+    padding: 20px; 
+    line-height: 1.5;  
+}
+
+.header {
+    color: white;
+    font-size: 35px; 
+    background-color: black;
+    border: 5px solid  rgb(105, 61, 19);;
+    border-radius: 4%;
+    padding: 10px;
+    text-align: center;
+}
+
+.school-link {
+    color: white;
+    height: 40px;
+    background-color:  rgb(83, 49, 17);
+    text-align: center;
+    margin: 5px auto;
+    font-family: Verdana;
+    line-height:1.5; 
+    border: 5px solid black;
+    font-size: medium;
+}
+
+.school-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.school-link a {
+    color: white;
+    text-decoration: none;
+    line-height: 0%;
+}
+
+.centered-image {
+    border: 3px solid rgb(104, 53, 5);
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    max-width: 1300px;
+    margin: 10px auto;
+    padding: 10px;
+    font-family: Verdana;
+    font-size: 14px; 
+    word-wrap: break-word;
+}
+
+.sidebar {
+    color: black;
+    padding: 20px;
+    background-color: rgb(245, 216, 189);
+    border: 5px solid black;
+    margin-right: 20px;
+    height: auto;
+    overflow-y: auto; 
+    flex-shrink: 0; 
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.menu-item:hover {
+    background-color:blanchedalmond;
+}
+
+.dropdown {
+    display: none; 
+    padding-left: 10px;
+}
+
+.dropdown-item {
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid rgb(104, 53, 5);
+    border-radius: 8px;
+}
+
+.bio-image {
+    width: 120px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.bio-details {
+    list-style-type: none;
+    padding-left: 0;
+    display: block;
+    flex-direction: column; 
+}
+
+.bio-details li {
+    padding-left: 20px;
+    font-size: 14px;
+    overflow: visible; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    display: list-item; 
+}
+
+
+.disclaimer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#visitCountDisplay {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.web_container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+button {
+    padding: 8px 12px; 
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 12px; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+h1, h2, h3, h4, h5 {
+    margin: 10px 0; 
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px; 
+}
+
+h3 {
+    font-size: 18px; 
+}
+
+h4, h5 {
+    font-size: 14px; 
+}
+
+
+a {
+    color: #007BFF; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Name</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="https://www.scu.edu/">
+        <img src="images/scu.png" class="centered-image">
+    </a>
+ 
+    <h1 class="header">Prof. Name</h1>
+
+    <h3 class="school-link" tabindex="0" id="schoolLink">
+        <a href="https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/">SCU School of Engineering</a>
+    </h3>
+
+    <div class="container">
+        <nav class="sidebar">
+            <div class="menu-item" onclick="toggleDropdown('AI_category')">
+                AI related courses
+                <div class="dropdown" id="AI_category">
+                    <div class="dropdown-item">Artificial Intelligence</div>
+                    <div class="dropdown-item">Data Mining</div>
+                    <div class="dropdown-item">Deep Learning</div>  
+                    <div class="dropdown-item">Information Retrieval</div>
+                    <div class="dropdown-item">Machine Learning</div>
+                    <div class="dropdown-item">Natural Language Processing</div>
+                    <div class="dropdown-item">Semantic Web</div>
+                </div>
+            </div>
+    
+            <div class="menu-item" onclick="toggleDropdown('System_category')">
+                System related courses
+                <div class="dropdown" id="System_category">
+                    <div class="dropdown-item">Big Data</div>
+                    <div class="dropdown-item">Cloud Computing</div>
+                    <div class="dropdown-item">Computer Architecture</div>
+                    <div class="dropdown-item">Computer Networks</div>
+                    <div class="dropdown-item">Distributed Systems</div>
+                    <div class="dropdown-item">Internet Architecture and Protocols</div>
+                    <div class="dropdown-item">Operating Systems</div>
+                </div>
+            </div>
+    
+            <div class="menu-item" onclick="toggleDropdown('Theory_category')">
+                Theory related courses
+                <div class="dropdown" id="Theory_category">
+                    <div class="dropdown-item">Compilers</div>
+                    <div class="dropdown-item">Computer Security</div>
+                    <div class="dropdown-item">Data Structures and Computer Algorithms</div>
+                    <div class="dropdown-item">Discrete Structures</div>
+                    <div class="dropdown-item">Network Science</div>
+                    <div class="dropdown-item">Programming Language</div>
+                </div>
+            </div>
+    
+            <div class="menu-item" onclick="toggleDropdown('Application_category')">
+                Application related courses
+                <div class="dropdown" id="Application_category">
+                    <div class="dropdown-item">Computer Graphics</div>
+                    <div class="dropdown-item">Database Systems</div>
+                    <div class="dropdown-item">Interactive Multimedia & Game Programming</div>
+                    <div class="dropdown-item">Visualization</div>
+                    <div class="dropdown-item"><a href="#web" onclick='goToWeb()'>Web Programming</a></div>
+                </div>
+            </div>
+    
+            <div class="menu-item" onclick="toggleDropdown('Hardware_category')">
+                Hardware related courses
+                <div class="dropdown" id="Hardware_category">
+                    <div class="dropdown-item">Computer-Aided Design</div>
+                    <div class="dropdown-item">SoC Verification</div>
+                </div>
+            </div>
+    
+            <div class="menu-item" onclick="toggleDropdown('other_category')">
+                Other courses
+                <div class="dropdown" id="other_category">
+                    <div class="dropdown-item">Analytics Process</div>
+                    <div class="dropdown-item">Capstone</div>
+                    <div class="dropdown-item">Project</div>
+                    <div class="dropdown-item"><a  onclick='goToMain()'>Biography</a></div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="col-md-8 content" id="page-content">
+            <h2>BIOGRAPHY</h2>
+            <img src="images/some.png" alt="Prof Name" class="bio-image">
+            <h4 class="centered-text">
+                <a href="https://www.linkedin.com/in//">Prof Name</a>
+            </h4>
+                <ul class="bio-details">
+                    <li>Bio Details.</li>
+                
+                    <div id="pagination_pag"></div>
+                </ul>
+        </div>
+    </div>
+
+    <div id="visitCountDisplay"></div>
+    <h5 class="disclaimer">Disclaimer: The content of these web pages is not generated by and does not represent the views of Santa Clara University or any of its departments or organizations.</h5>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
